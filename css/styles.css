@@ -278,7 +278,7 @@ body {
   margin-bottom: var(--set-gap);
   background: var(--secondary-background);
   border-radius: 4px;
-  padding: 25px 0px;
+  height: 120px;
 }
 
 .icon-feature {
@@ -403,7 +403,8 @@ body {
   align-items: center;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
+  
+  
 
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -436,9 +437,14 @@ body {
   padding-bottom: 60px;
 }
 
-.footer-content {
+.conteiner-footer-content{
   display: flex;
   align-items: baseline;
+  width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .address {
