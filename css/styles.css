@@ -521,7 +521,8 @@ body {
   color: var(--text-color);
 
   transition: color 250ms var(--function-transition),
-    backgroud-color 250ms var(--function-transition);
+  box-shadow 250ms var(--function-transition),
+    background-color 250ms var(--function-transition);
 }
 
 .current-btn,
@@ -574,8 +575,7 @@ body {
 
 .gallery-link {
   display: block;
-  transition: backgroud-color 250ms var(--function-transition),
-      box-shadow 250ms var(--function-transition);
+  transition:box-shadow 250ms var(--function-transition);
 }
 
 .card {
